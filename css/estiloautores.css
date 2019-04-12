@@ -5,6 +5,57 @@
 			-moz-box-sizing: border-box;
 			box-sizing: border-box;
 		}
+h1 {
+	text-align: center;
+	color: rgb(131,25,8);
+	margin: 30px;
+}
+
+h2 {
+	color: rgb(131,25,8);
+	margin: 40px;
+	text-align: center;
+}
+img {
+	margin: auto;
+	display: block;
+	border-radius: 5px;
+	}
+p {
+	line-height: 30px;
+    color: rgb(131,25,8);
+    margin: 20px 20px;
+}
+html {
+	font-size: 16px;
+}
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 5.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+.con {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+.icon-twitter {
+	background: #339DC5;
+
+}
+.con:first-child {
+	border-radius: 1rem 0 0 0;
+}
+.icon:last-child {
+border-radius: 0 0 0 1rem;
+}
 
 body{
 	margin: 0;
@@ -12,9 +63,46 @@ body{
 	background:url(../img/logo_unad.png)no-repeat fixed center center #333;
 	background-size: cover;
 }
-.navegacion {
-		width: 1000px;
-		margin: 30px auto;
+
+#wrapper{
+	border-radius: 5px;
+	background-color: #ccc;
+	height: 700px;
+	margin: 0px auto;
+	width: 700px;
+}
+}
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 5.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+.con {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+.icon-twitter {
+	background: #339DC5;
+
+}
+.con:first-child {
+	border-radius: 1rem 0 0 0;
+}
+.icon:last-child {
+border-radius: 0 0 0 1rem;
+}
+
+	.navegacion {
+		width: 700px;
+		margin: 20px auto;
 		background: #fff;
 
 	}
